@@ -1,0 +1,85 @@
+/*Background picture for heading*/
+.jumbotron {
+    background: url('img/leaf_bg.jpeg') center center;
+    background-size:  cover;
+    height: 600px;
+}
+/* Setting up Logo*/
+.logo {
+    width: 75px;
+    height: 75px;
+}
+/* Featured Text*/
+.featured {
+    color: #fff;
+    padding-top: 60px;
+}
+.featured .btn-default {
+    font-weight: bold;
+    color: white;
+    background-color: rgba(145, 82, 58, 0.5);
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 170px;
+    margin-right: 20px;
+    border: 1px solid white;
+}
+.featured .btn-default:hover {
+    background-color: rgb(145, 82, 58);
+}
+/*App store and play store*/
+.trial {
+    text-align: center;
+    padding: 20px 0 40px 0;
+    color: black;
+}
+.trial .container img {
+    width: 200px;
+    margin: 20px;
+}
+
+/*Footer*/
+.footer{
+    background-color: #eee;
+    font-size: 15px;
+    padding: 10px 0;
+    height: 70px;
+} 
+/*Media queries*/
+@media (max-width: 480px){
+    .jumbotron {
+        height: 80%;
+        margin: 0;
+    }
+    .logo {
+        width: 40px;
+        height: 40px;
+    }
+    .featured {
+        padding-top: 10px;
+        text-align: center;
+    }
+    .featured p, .feature btn {
+        font-size: 13px;
+    }
+    .trial img {
+        width: 100px;
+    }
+}
+@media (min-width: 480px) and (max-width: 768px) {
+    .jumbotron {
+        height: 80%;
+        margin: 0;
+    }
+    .logo {
+        width: 50px;
+        height: 50px;
+    }
+    .featured {
+        padding-top: 30px;
+        text-align: center;
+    }
+    .featured p {
+        font-size: 17px;
+    }
+}
