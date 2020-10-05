@@ -2,7 +2,7 @@
   "name": "file_explorer",
   "version": "1.0.0",
   "description": "Online File Explorer",
-  "main": "app.js",
+  "main": "server.js",
   "directories": {
     "lib": "lib"
   },
